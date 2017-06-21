@@ -14,7 +14,7 @@ def hypertension():
     systolic_p = float(input("Enter your systolic pressure:"))
     diastolic_p = float(input("Enter your diastolic pressure:"))
 
-    if systolic_p >= 40 or diastolic_p >=90:
+    if systolic_p >= 140 or diastolic_p >=90:
 
         print("You have high blood pressure.")
 
