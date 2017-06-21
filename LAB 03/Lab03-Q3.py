@@ -3,7 +3,7 @@
 child_age = int(input("Enter age:"))
 child_weight = float(input("Enter weight:"))
 
-if child_age <= 8 or child_weight < 70:
+if child_age < 8 or child_weight < 70:
     print("This child must use a booster seat.")
 
 else:
